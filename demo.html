@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>demo</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <hr>
+    <h3 align="center">特殊字符的学习</h3>
+    我要显示空格：后面是4个空格&nbsp;&nbsp;&nbsp;&nbsp;前面是4个空格<br>
+    我要显示版权：&copy;<br>
+    我要显示左尖括号：&lt;
+    我要显示右尖括号：&gt;
+    我要显示钱字符：&yen;
+    <hr>
+
+    <h3 align="center">文本相关标记学习</h3>
+    这是一段<b>加粗</b><i>斜体</i><u>下划线</u><s>删除线</s><br>
+    上<sup>标</sup><br>
+    下<sub>标</sub><br>
+    <hr>
+
+    <h3 align="center">标题标签学习</h3>
+    <h1 align="center">静夜思</h1>
+    <h2 align="right">李白</h2>
+    <h3 align="left">床前明月光</h3>
+    <h4>疑似地上是</h4>
+    <h5>举头望明煜</h5>
+    <h6>低头思故乡</h6>
+    <hr>
+
+    <a name="duanluo"></a>
+    <h3 align="center">段落标签学习</h3>
+    <p align="center">天长地久有时尽</p>
+    <p align="right">此恨绵绵无绝期</p>
+    <hr>
+
+    <h3 align="center">块分区和行分区学习</h3>
+    <div>这是块分区1</div>
+    <div>这是块分区2</div>
+    <span>这是行内1</span>
+    <span>这是行内2</span>
+    <hr>
+
+    <h3 align="center">列表学习</h3>
+    <div align="center">
+        <ol type="i">
+            <li>内容1</li>
+            <li>内容2</li>
+            <li>内容3</li>
+            <li>内容4</li>
+        </ol>
+        <ul>
+            <li>内容One</li>
+            <li>内容Two</li>
+        </ul>
+    </div>
+    <ol>
+        <li>
+            水浒传
+            <ol type="a">
+                <li>西门庆</li>
+                <li>潘金莲</li>
+                <li>武大郎</li>
+            </ol>
+        </li>
+        <li>
+            三国演义
+            <ol type="i">
+                <li>吕布</li>
+                <li>貂蝉</li>
+                <li>关羽</li>
+            </ol>
+        </li>
+    </ol>
+    <hr>
+
+    <h3 align="center">图片学习</h3>
+    <div align="center">
+        <img src="img/redGirl.png" width="300">
+        <h4>图 1</h4>
+    </div>
+    <div align="center">
+        <img src="img/redGirl.ipg" alt="没有诶" width="300">
+        <h4>图 2</h4>
+    </div>
+    <hr>
+
+    <h3 align="center">超链接学习</h3>
+    <a href="https://www.baidu.com">百度</a>
+    <a href="demo.html" target="_blank">new demo</a>
+
+    <div align="center">
+        <a href="http://image.baidu.com/search/index?tn=baiduimage&ipn=r&ct=201326592&cl=2&lm=-1&st=-1&sf=1&fmq=&pv=&ic=0&nc=1&z=&se=1&showtab=0&fb=0&width=&height=&face=0&istype=2&ie=utf-8&fm=index&pos=history&word=狐妖小红娘"
+            target="_blank">
+            <img src="img/redGirl.png" width="300">
+        </a>
+        <h4>图-3</h4>
+    </div>
+    <a href="#">返回页面顶部</a>
+    <a href="#duanluo">返回到段落</a>
+    <hr>
+
+    <h3 align="center">表格学习</h3>
+    <div>
+        <table border="1" width="600" align="center" cellpadding="5" cellspacing="10" bgcolor="blue">
+            <thead align="right" bgcolor="red">
+                <tr>
+                    <td>姓名</td>
+                    <td>语文</td>
+                    <td>数学</td>
+                    <td>英语</td>
+                </tr>
+            </thead>
+            <tbody align="center" valign="bottom">
+                <!--方便统一管理-->
+                <tr>
+                    <td rowspan="2" bgcolor="white">刘超</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                </tr>
+                <tr bgcolor="red">
+                    <!-- <td>猪獒</td> -->
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr bgcolor="white">
+                    <td>阿斯蒂芬阿斯蒂芬阿斯蒂</td>
+                    <td colspan="2">4</td>
+                    <!-- <td>3</td> -->
+                    <td>5</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3 align="center">表 1:4x4的表格</h3>
+    </div>
+    <div align="center">
+        <table border="1" cellspacing="0" width="300" height="300">
+            <!-- 6x6 -->
+            <tbody align="center" valign="middle">
+                <tr>
+                    <td colspan="2" rowspan="1">A</td>
+                    <!-- <td></td> -->
+                    <td colspan="1" rowspan="2">B</td>
+                </tr>
+                <tr>
+                    <td colspan="1" rowspan="2">D</td>
+                    <td colspan="1" rowspan="1">E</td>
+                    <!-- <td></td> -->
+                </tr>
+                <tr>
+                    <!-- <td></td> -->
+                    <td colspan="2" rowspan="1">C</td>
+                    <!-- <td></td> -->
+                </tr>
+            </tbody>
+        </table>
+        <h3>表 2：3x3</h3>
+    </div>
+    <br>
+
+    <h3 align="center">表单学习</h3>
+    <form action="login" method="POST">
+        <input type="text" value="readonly" readonly>
+        <input type="text" placeholder="aaaaa">
+        <input type="password">
+    </form>
+
+    <form action="login" method="GET">
+        <p>
+            用户名称：<input type="text" name="username" placeholder="请输入用户名称">
+
+        </p>
+        <p>
+            用户密码：<input type="password" name="password" placeholder="请输入用户密码">
+        </p>
+        <p>
+            <input type="submit" value="起飞">
+            <input type="reset" value="滚">
+            <input type="button" value="待命">
+        </p>
+    </form>
+
+    <!--模仿百度-->
+    <form action="https://www.baidu.com/s">
+        <p>
+            <input type="text" name="wd">
+            <input type="submit" value="百度一下">
+        </p>
+        <button>
+            <p>百度一下</p>
+        </button>
+    </form>
+
+    <!--单选按钮和复选框-->
+    <p>用户性别：
+        <input type="radio" name="gender" value="1" checked>男
+        <input type="radio" name="gender" value="0">女
+    </p>
+    <p>用户爱好：
+        <input type="checkbox" name="hobby" value="1">吃
+        <input type="checkbox" name="hobby" value="2">喝
+        <input type="checkbox" name="hobby" value="3">玩
+        <input type="checkbox" name="hobby" value="4">乐
+    </p>
+
+    <!--模仿京东-->
+    <form action="https://search.jd.com/Search">
+        <p>
+            关键词：
+            <input type="text" name="keyword">
+            <!-- 隐藏域 -->
+            <input type="hidden" name="enc" value="utf-8">
+        </p>
+        <p>
+            <button type="submit">搜索京东</button>
+        </p>
+    </form>
+
+    <!--文件选择框-->
+    <form action="join">
+        <p>
+            上传头像：
+            <input type="file" name="uimg">
+            <input type="submit">
+        </p>
+    </form>
+
+    <h2>修改个人信息</h2>
+    <form action="login" method="POST">
+        <table border="1" cellspacing="0" cellpadding="5">
+            <tbody>
+                <tr>
+                    <td>姓名：</td>
+                    <td>
+                        <input type="text" name="myname" value="mary">
+                    </td>
+                </tr>
+                <tr></tr>
+                <td>性别：</td>
+                <td>
+                    <input type="radio" name="xingbie" value="0" checked>女士
+                    <input type="radio" name="xingbie" value="1">男士
+                </td>
+                <tr></tr>
+                <td>学历：</td>
+                <td>
+                    <!--下拉选择框-->
+                    <select name="city" id="">
+                        <option value="0">北京市</option>
+                        <option value="1">上海市</option>
+                        <option value="2">天津市</option>
+                        <option value="3">重庆市</option>
+                    </select>
+                </td>
+                <tr>
+                    <td>个人描述：</td>
+                    <td>
+                        <!--多行文本域-->
+                        <textarea name="name" id="" cols="30" rows="10"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" name="xinxi" value="1">不要公开个人信息
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="保存">
+                        <input type="reset" value="重填">
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+    </form>
+
+
+</body>
+
+</html>
